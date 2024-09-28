@@ -17,7 +17,7 @@ plot(t,y);
 title("Original signal");
 xlabel("time");
 ylabel("amplitude");
-%less than nyquist range
+%less than nyquist rate
 fs1=fm;
 t1=0:1/fs1:1;
 y1=sin(2*pi*fm*t1);
