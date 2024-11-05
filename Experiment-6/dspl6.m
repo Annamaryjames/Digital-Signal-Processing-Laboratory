@@ -1,7 +1,9 @@
-%%
+%% EXPERIMENT NO-6
+
 %dft
+
 clc;
-clear;
+clear all;
 close all;
 x=[1 1 0 0];
 N=length(x);
@@ -16,15 +18,8 @@ disp(round(X));
 disp('Using built-in function');
 disp(fft(x));
 
-
-%% 
-
-
-
 %idft
-clc;
-clear;
-close all;
+
 X=[2 1-1i 0 1+1i];
 N=length(X);
 x=zeros(4,1);
@@ -39,15 +34,8 @@ disp(round(x));
 disp('Using built-in function');
 disp(ifft(X));
 
-%% 
-
-
-
-
 %dft using twiddle factor matrix
-clc;
-clear;
-close all;
+
 x=[1 2 3 4];
 N=length(x);
 n=0:N-1;
@@ -59,15 +47,8 @@ disp(X);
 disp('Using built-in function');
 disp(fft(x));
 
-
-%% 
-
-
-
 %idft using twiddle factor
-clc;
-clear;
-close all;
+
 X=[10  -2 + 2i  -2  -2 - 2i];
 N=length(X);
 n=0:N-1;
@@ -79,15 +60,8 @@ disp(x);
 disp('Using built-in function');
 disp(ifft(X));
 
+%magnitude and phase plot of dft
 
-%% 
-
-
-
-%mag and phase responce
-clc;
-clear;
-close all;
 xn=[1 1 1];
 N=input('Enter the value of N:');
 L=length(xn);
@@ -119,9 +93,3 @@ plot(k,phaseXk);
 title('Phase of the DFT sequence');
 xlabel('Frequency');
 ylabel('Phase');
-
-
-
-
-
-
