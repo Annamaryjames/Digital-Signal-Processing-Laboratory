@@ -1,10 +1,9 @@
-%% 
-% EXPERIMENT NO-5
-% 
+%% EXPERIMENT NO-5
+
 % a)Linear convolution using circular convolution
 
 clc;
-clear ;
+clear all;
 close all;
 x=[1 2 3 4];
 h=[1 1 1];
@@ -17,13 +16,7 @@ y1=x1.*h1;
 y=ifft(y1);
 disp("Linear Convolution using Circular Convolution :");
 disp(y);
-%%
-%using builtin function
-x=[1 2 3 4];
-h=[1 1 1];
-y1=conv(x,h);
-disp(y1);
-%% 
+
 % b)circular convolution using linear convolution
 
 x=[1 2 3 4];
