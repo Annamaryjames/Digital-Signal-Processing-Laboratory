@@ -1,8 +1,8 @@
 # Digital Signal Processing Laboratory
 
 ## Team members
-1.Anna Mary James<br>
-2.Basil Mubarak
+1.Anna Mary James(B22ECB14)<br>
+2.Basil Mubarak(B22ECB22)
 
 ## Table of Contents
 1.Simulation of Basic Test Signals<br> 
