@@ -1,4 +1,9 @@
+%%EXPERIMENT NO-8
+
+%Overlap add and Overlap save method
+
 %overlap add
+
 clc;
 close all;
 clear;
@@ -32,15 +37,9 @@ subplot(2, 1, 2);
 stem(y_builtin, 'filled');
 title('Built-in Convolution Result');
 grid on;
-%% 
-
-
-
 
 %overlap save
-clc;
-clear;
-close all;
+
 x = input("Enter the input sequence x : ");
 h = input("Enter the impulse response h :");
 N = length(h);
