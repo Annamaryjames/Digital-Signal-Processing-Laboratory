@@ -1,13 +1,13 @@
-%% 
-% EXPERIMENT NO-3
-% 
+%% EXPERIMENT NO-3
+
 % Linear convolution
-% 
+
 % a)using built in function
 
 clc;
 clear all;
 close all;
+
 x=input("Enter the elements in x[n]:");
 x_ind=input("Enter the index of x[n]:");
 h=input("Enter the elements in h[n]:");
@@ -20,10 +20,8 @@ stem(y_ind,y);
 title("Linear convolution");
 xlabel("time index");
 ylabel("amplitude");
-%% 
+ 
 % b)without using built in function
-% 
-% 
 
 x=input("Enter the elements in x[n]:");
 x_ind=input("Enter the index of x[n]:");
