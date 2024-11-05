@@ -1,5 +1,9 @@
-%%
+%%EXPERIMENT NO-7
+
+%Properties of DFT
+
 %linearity
+
 clc;
 clear;
 close all;
@@ -17,14 +21,8 @@ rhsk=(a1*x1k)+(a2*x2k);
 disp('RHS=');
 disp(rhsk);
 
-%% 
-
-
-
 %convolution
-clc;
-clear;
-close all;
+
 x1=[1 2 3 4];
 x2=[2 1 2 1];
 y1=cconv(x1,x2,4);
@@ -38,15 +36,8 @@ disp(lhsk);
 disp('RHS=');
 disp(rhsk);
 
-%% 
-
-
-
-
 %multiplication
-clc;
-clear;
-close all;
+
 x1=[1 2 3 4];
 x2=[2 1 2 1];
 l=length(x1);
@@ -61,16 +52,8 @@ disp(y1);
 disp('RHS=');
 disp(ifft(rhsk));
 
-%% 
-
-
-
-
-
 %parseval's theorem
-clc;
-clear;
-close all;
+
 x=[1 2 3 4];
 N=length(x);
 e=sum(abs(x).^2);
@@ -80,5 +63,3 @@ disp('LHS=');
 disp(e);
 disp('RHS=');
 disp(ek);
-
-
