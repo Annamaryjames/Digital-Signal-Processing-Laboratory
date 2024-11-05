@@ -1,8 +1,7 @@
-%% 
-% EXPERIMENT NO 4
-% 
+%% EXPERIMENT NO 4
+
 % Circular convolution
-% 
+
 % a)concentric circle method
 
 clc;
@@ -39,7 +38,7 @@ title("circular convolution output y[n]");
 xlabel("time ");
 ylabel("amplitude");
 grid;
-%% 
+
 % b)matrix method
 
 x=input("Enter the elements in x[n]:");
@@ -75,7 +74,7 @@ title("circular convolution output y[n]");
 xlabel("time ");
 ylabel("amplitude");
 grid;
-%% 
+
 % c)using fft
 
 x=input("Enter the elements in x[n]:");
