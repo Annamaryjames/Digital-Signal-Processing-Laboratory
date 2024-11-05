@@ -1,11 +1,11 @@
-%% 
-% EXPERIMENT NO-2
-% 
+%% EXPERIMENT NO-2
+
 % Verification of sampling theorem
 
 clc;
 clear all;
 close all;
+
 %original signal
 t=0:0.01:1;
 fm=10;
@@ -17,6 +17,7 @@ plot(t,y);
 title("Original signal");
 xlabel("time");
 ylabel("amplitude");
+
 %less than nyquist rate
 fs1=fm;
 t1=0:1/fs1:1;
@@ -28,6 +29,7 @@ plot(t1,y1);
 title("Undersampling");
 xlabel("time");
 ylabel("amplitude");
+
 %equal to nyquist rate
 fs2=3*fm;
 t2=0:1/fs2:1;
@@ -39,6 +41,7 @@ plot(t2,y2);
 title("Nyquistsampling");
 xlabel("time");
 ylabel("amplitude");
+
 %greater than nyquist rate
 fs3=10*fm;
 t3=0:1/fs3:1;
