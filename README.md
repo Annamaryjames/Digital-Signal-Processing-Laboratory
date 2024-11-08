@@ -12,8 +12,8 @@
 5.Linear Convolution using circular convulation and vice versa <br>
 6.DFT and IDFT<br>
 7.Properties of DFT<br>
-8.Overlap add and Overlap save method
-9.Implementation of FIR Filter
+8.Overlap add and Overlap save method<br>
+9.Implementation of FIR Filter<br>
 10.Familiarization of DSP Hardware<br>
 11. Generation of Sine Wave using
 DSP Kit<br>
