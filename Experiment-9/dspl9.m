@@ -1,4 +1,7 @@
 %% EXPERIMENT NO-9
+
+% Implementation of FIR filter
+
 %lowpass filter
 
 clc;
