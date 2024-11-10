@@ -25,7 +25,7 @@ In the context of linear convolution in DSP, this operation is applied to digita
 • System Analysis: Helps in analyzing LTI systems in response to inputs
 
 
-Procedure 
+## PROCEDURE
 
 Open Code Composer Studio,
 
