@@ -15,5 +15,32 @@ If we consider a sinusoidal signal y(t) having an amplitude A, frequency f, and 
 If we denote 2πf as an angular frequency ω the we can re-write the signal as<br> 
          y(𝑡) = 𝐴 𝑠𝑖𝑛(𝜔𝑡 + 𝜃 )
 
+## PROCEDURE
+
+1.	Open Code Composer Studio,
+
+Click on File - New – CCS Project 
+
+Select the Target – C674X Floating point DSP , TMS320C6748 , and 
+
+Connection – Texas Instruments XDS 100v2 USB Debug Probe and Verify. 
+
+Give the project name and select Finish.
+ 
+2.	Type the code program for generating the sine wave and choose File – Save As and then save the program with a name including ‘main.c’. 
+
+Delete the already existing main.c program. 
+
+3.	Select Debug and once finished, select the Run option.
+ 
+4.	From the Tools Bar, select Graphs – Single Time. 
+
+Select the DSP Data Type as 32-bit Floating point and time display unit as second(s). 
+
+Change the Start address with the array name used in the program(here,a). 
+
+5.	Click OK to apply the settings and Run the program or clock Resume in CCS
+
+
 ## OBSERVATION
 ![WhatsApp Image 2024-11-10 at 1 03 04 PM](https://github.com/user-attachments/assets/49c7430a-b882-490f-8ee3-07f9784ec857)
